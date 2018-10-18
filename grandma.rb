@@ -15,10 +15,10 @@
 def speak_to_grandma(string)
   string = gets.strip
   if string.upcase
-    puts "NO, NOT SINCE 1938!"
+    return puts "NO, NOT SINCE 1938!"
     elsif string == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
-  else puts "HUH? SPEAK UP, SONNY!"
+    return puts "I LOVE YOU TOO PUMPKIN!"
+  else return puts "HUH? SPEAK UP, SONNY!"
   end
 end
 
