@@ -16,7 +16,7 @@ def speak_to_grandma(string)
   string = gets.strip
   if string == string.upcase
     return "NO, NOT SINCE 1938!"
-  else return "HUH? SPEAK UP, SONNY!"
+  else return false 
   end
 end
 
